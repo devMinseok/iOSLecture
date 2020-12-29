@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="FivoSans-Black.otf">
+            <string>FivoSans-Black</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="2DJ-PN-c5C" customClass="ToDoCardCell" customModule="Do_Did_List" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="350" height="450"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="lWc-1W-Egh">
+                <rect key="frame" x="0.0" y="0.0" width="350" height="450"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bo3-ge-2Dy">
+                        <rect key="frame" x="0.0" y="0.0" width="350" height="44"/>
+                        <items>
+                            <navigationItem title="00:00" id="B6H-Kp-HmI">
+                                <barButtonItem key="leftBarButtonItem" id="LeC-OI-qYu">
+                                    <view key="customView" contentMode="scaleToFill" id="MpD-Ea-mgW" customClass="CosmosView" customModule="Cosmos">
+                                        <rect key="frame" x="16" y="9.6666666666666643" width="85" height="25"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="totalStars">
+                                                <integer key="value" value="3"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="filledColor">
+                                                <color key="value" red="0.29803921570000003" green="0.85098039219999999" blue="0.3921568627" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="emptyBorderColor">
+                                                <color key="value" red="0.29803921570000003" green="0.85098039219999999" blue="0.3921568627" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="filledBorderColor">
+                                                <color key="value" red="0.29803921570000003" green="0.85098039219999999" blue="0.3921568627" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="rating">
+                                                <real key="value" value="2"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="starSize">
+                                                <real key="value" value="25"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </barButtonItem>
+                            </navigationItem>
+                        </items>
+                    </navigationBar>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X7K-x5-qOV">
+                        <rect key="frame" x="0.0" y="44" width="350" height="406"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yxT-2w-Z5N">
+                                <rect key="frame" x="10" y="15" width="330" height="24"/>
+                                <fontDescription key="fontDescription" name="FivoSans-Black" family="Fivo Sans" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xeW-nZ-A7e">
+                                <rect key="frame" x="10" y="54" width="330" height="332"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="FivoSans-Black" family="Fivo Sans" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="xeW-nZ-A7e" firstAttribute="leading" secondItem="X7K-x5-qOV" secondAttribute="leading" constant="10" id="0jX-mC-79I"/>
+                            <constraint firstAttribute="trailing" secondItem="xeW-nZ-A7e" secondAttribute="trailing" constant="10" id="EPp-jL-ToH"/>
+                            <constraint firstItem="yxT-2w-Z5N" firstAttribute="top" secondItem="X7K-x5-qOV" secondAttribute="top" constant="15" id="RQ5-aE-ymv"/>
+                            <constraint firstItem="yxT-2w-Z5N" firstAttribute="leading" secondItem="X7K-x5-qOV" secondAttribute="leading" constant="10" id="ckO-Sh-Nyf"/>
+                            <constraint firstItem="xeW-nZ-A7e" firstAttribute="top" secondItem="yxT-2w-Z5N" secondAttribute="bottom" constant="15" id="g2P-8H-Yam"/>
+                            <constraint firstAttribute="bottom" secondItem="xeW-nZ-A7e" secondAttribute="bottom" constant="20" id="zHh-xV-S2W"/>
+                            <constraint firstAttribute="trailing" secondItem="yxT-2w-Z5N" secondAttribute="trailing" constant="10" id="zLh-s7-fDb"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="X7K-x5-qOV" secondAttribute="trailing" id="4Rg-OH-OUO"/>
+                    <constraint firstItem="X7K-x5-qOV" firstAttribute="leading" secondItem="lWc-1W-Egh" secondAttribute="leading" id="9xJ-zw-xGu"/>
+                    <constraint firstItem="Bo3-ge-2Dy" firstAttribute="top" secondItem="lWc-1W-Egh" secondAttribute="top" id="BT3-7H-zl8"/>
+                    <constraint firstItem="Bo3-ge-2Dy" firstAttribute="leading" secondItem="lWc-1W-Egh" secondAttribute="leading" id="Nji-eE-ubd"/>
+                    <constraint firstAttribute="trailing" secondItem="Bo3-ge-2Dy" secondAttribute="trailing" id="Zh8-3j-DQz"/>
+                    <constraint firstAttribute="bottom" secondItem="X7K-x5-qOV" secondAttribute="bottom" id="pLi-Po-aOM"/>
+                    <constraint firstItem="X7K-x5-qOV" firstAttribute="top" secondItem="Bo3-ge-2Dy" secondAttribute="bottom" id="t1l-iA-Ujj"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <size key="customSize" width="352" height="447"/>
+            <connections>
+                <outlet property="colorView" destination="X7K-x5-qOV" id="Pdh-an-cGH"/>
+                <outlet property="descriptionTextView" destination="xeW-nZ-A7e" id="2ec-8V-Mlr"/>
+                <outlet property="navigationBar" destination="Bo3-ge-2Dy" id="X8K-Cz-KA5"/>
+                <outlet property="navigationItem" destination="B6H-Kp-HmI" id="hUO-in-AHP"/>
+                <outlet property="starRatingView" destination="MpD-Ea-mgW" id="u1A-pA-dcX"/>
+                <outlet property="titleLabel" destination="yxT-2w-Z5N" id="S23-5c-Wnc"/>
+            </connections>
+            <point key="canvasLocation" x="134.78260869565219" y="161.38392857142856"/>
+        </collectionViewCell>
+    </objects>
+    <designables>
+        <designable name="MpD-Ea-mgW">
+            <size key="intrinsicContentSize" width="85" height="25"/>
+        </designable>
+    </designables>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

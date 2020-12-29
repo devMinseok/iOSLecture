@@ -1,0 +1,38 @@
+PODS:
+  - Cosmos (23.0.0)
+  - FSCalendar (2.8.1)
+  - M13Checkbox (3.4.0)
+  - Realm (4.4.1):
+    - Realm/Headers (= 4.4.1)
+  - Realm/Headers (4.4.1)
+  - RealmSwift (4.4.1):
+    - Realm (= 4.4.1)
+  - VerticalCardSwiper (2.2.0)
+
+DEPENDENCIES:
+  - Cosmos (~> 23.0)
+  - FSCalendar
+  - M13Checkbox
+  - RealmSwift
+  - VerticalCardSwiper
+
+SPEC REPOS:
+  trunk:
+    - Cosmos
+    - FSCalendar
+    - M13Checkbox
+    - Realm
+    - RealmSwift
+    - VerticalCardSwiper
+
+SPEC CHECKSUMS:
+  Cosmos: b5c6a9a637e28a061b54c8f8b1d8529d7d4db73f
+  FSCalendar: 5245140456fcbcac5824c203b98bd8068bdfee1a
+  M13Checkbox: 6f59404540ac98ba83a3d1afac335895a40c6a5d
+  Realm: 4eb04d7487bd43c0581256f40b424eafb711deff
+  RealmSwift: 3eb8924ff7100df5928c7602f71d0fec51e7c9c5
+  VerticalCardSwiper: 41c8c0d8d87511ec269347f5671386acf66cd31a
+
+PODFILE CHECKSUM: f4ceef641932a25b5817a81a1acf13ae19c4b742
+
+COCOAPODS: 1.10.0

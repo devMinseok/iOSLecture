@@ -1,0 +1,24 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '11.0'
+
+use_frameworks!
+
+target 'Do_Did_List' do
+  # Pods for Do_Did_List
+  
+  # Star rating control
+  pod 'Cosmos', '~> 23.0' # https://github.com/evgenyneu/Cosmos
+  
+  # Animated checkbox
+  pod 'M13Checkbox' # https://github.com/Marxon13/M13Checkbox
+  
+  # Vertical swipe view
+  pod 'VerticalCardSwiper' # https://github.com/JoniVR/VerticalCardSwiper
+  
+  # Calendar
+  pod 'FSCalendar' # https://github.com/WenchaoD/FSCalendar
+
+  # Database
+  pod 'RealmSwift' # https://github.com/realm/realm-cocoa
+
+end

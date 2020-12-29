@@ -1,0 +1,25 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'DoDidList_lecture' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for DoDidList_lecture
+
+  # Star rating control
+  pod 'Cosmos', '~> 23.0' # https://github.com/evgenyneu/Cosmos
+
+  # Animated checkbox
+  pod 'M13Checkbox' # https://github.com/Marxon13/M13Checkbox
+
+  # Vertical swipe view
+  pod 'VerticalCardSwiper' # https://github.com/JoniVR/VerticalCardSwiper
+
+  # Calendar
+  pod 'FSCalendar' # https://github.com/WenchaoD/FSCalendar
+
+  # Database
+  pod 'RealmSwift' # https://github.com/realm/realm-cocoa
+
+end
